@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- jQuery-->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Self -->
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+    <div class="container bg-secondary text-light">
+        <header>
+            <h1 class="text-center font-weight-bold">BAC Calculator</h1>
+        </header>
+
+        <main>
+            <!-- Beer -->
+            <label for="numBeersConsumed">One beer has 0.54 oz of alcohol. <br> Number of Beers consumed: </label>
+            <input type="number" name="numBeersConsumed" id="numBeersConsumed" value="0">
+
+            <br><br>
+
+            <!-- Wine -->
+            <label for="numWineConsumed">One glass of wine has 0.60 oz of alcohol. <br> Glasses of Wine consumed: </label>
+            <input type="number" name="numWineConsumed" id="numWineConsumed" value="0">
+
+            <br><br>
+
+            <!-- Shots -->
+            <label for="numShotsConsumed">One shot of liquor has 0.60 oz of alcohol. <br> Number of Shots consumed: </label>
+            <input type="number" name="numShotsConsumed" id="numShotsConsumed" value="0">
+
+            <br><br>
+
+            <!-- Weights -->
+            <label for="weight">Your Weight in Pounds: </label>
+            <input type="number" name="weight" id="weight" value="0">
+
+            <br><br>
+
+            <!-- Hours -->
+            <label for="hours">Hours since your First Drink: </label>
+            <input type="number" name="hours" id="hours" value="0">
+
+            <br><br>
+
+            <!-- Submit -->
+            <input type="submit" name="submit" id="submit" value="Calculate My BAC">
+
+            <br><br>
+            <!-- Output -->
+
+            <h4 class="text-center font-weight-bold">Your Blood Alcohol Content (BAC) is <br> <span id="outputBAC"></span></h4>
+
+            <br>
+        </main>
+    </div>
+
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- Self -->
+    <script src="script.js"></script>
+</body>
+
+</html>
